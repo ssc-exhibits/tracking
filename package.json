@@ -1,9 +1,9 @@
 {
   "name": "exhibit-checklist",
-  "homepage": "https://ssc-exhibits.github.io/tracking/",
   "version": "1.0.0",
   "description": "A simple exhibit status tracking app",
   "main": "index.js",
+  "homepage": "https://ssc-exhibits.github.io/tracking/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"

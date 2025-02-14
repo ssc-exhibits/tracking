@@ -1,16 +1,12 @@
 {
   "name": "exhibit-checklist",
   "version": "1.0.0",
-  "description": "A simple exhibit status tracking app",
-  "main": "index.js",
   "homepage": "https://ssc-exhibits.github.io/tracking/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build"
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-
   },
   "dependencies": {
     "react": "^18.0.0",

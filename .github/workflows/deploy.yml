@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # Runs when code is pushed to the main branch
+      - main  # Runs when code is pushed to main
 
 permissions:
   contents: write
@@ -31,4 +31,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: build
+          folder: build  # Ensure we deploy the correct folder
